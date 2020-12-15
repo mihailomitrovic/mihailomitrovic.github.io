@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: transparent;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    background-blend-mode: overlay;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255); 
+}
+
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: "myFontLight";
+    src: url(/Font/LemonMilkLight-owxMq.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "myFontBold";
+    src: url(/Font/LemonMilkBold-gx2B3.ttf) format("truetype");
+}
+
+a {
+    color: white;
+    font-family: myFontLight;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: transparent;
+}
+
+a:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+p, h1 {
+    background-color: transparent;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    align-self: center;
+}
+
+#logo:hover {
+    width: 100px;
+    height: 100px;
+}
+
+#myheader {
+    background-color:rgb(0, 0, 0, .9);
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.meniel{
+    flex: 1;
+}
+
+
+#akcijasl {
+    width: 100%;
+   padding-top: 100px;
+   align-self: center;
+   object-fit: cover;
+}
+
+.roditelj div {
+    background-color: black;
+    color: white;
+    font-family: myFontLight;
+}
+
+.roditelj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#d1 {
+    width: 50%;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+#dd {
+    font-family: myFontLight;
+    font-weight: bold;
+}
+
+#d2 {
+    text-align: center;
+    width: 700px;
+    height: 300px;
+    background-image: url(../Kumo-main/Slike/sushi.jpg);
+    background-size: cover;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.jel {
+    color: white;
+}
+
+#jel1 {
+    margin-top: 33px;
+    color: rgb(223, 162, 121);
+}
+
+#jel2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+#jeld {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-family: myFontLight;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 190px;
+    margin-bottom: 350px;
+}
+
+#jeld:hover {
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+}
+
+#myfooter {
+    background-color:rgb(231, 214, 194);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    margin-top: 65px;
+    justify-content: center;
+    text-align: center;
+}
+
+.roditelj1 div {
+    background-color: rgb(231, 214, 194);
+    color:  rgb(231, 214, 194);
+    font-family: myFontLight;
+}
+
+.roditelj1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ikonica {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    padding-right: 2px;
+    margin-top: 50px;
+}
+
+.ikonica:hover {
+    cursor: pointer;
+}
+
+#news {
+    color: black;
+}
+
+#f1 {
+    padding-top: 25px;
+}
+
+#f2 {
+    padding-top: 30px;
+}
+
+#news1 {
+    background-color: rgb(231, 214, 194);
+    color: black;
+    font-family: myFontLight;
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#news2 {
+    background-color: black;
+    color: 	rgb(231, 214, 194);
+    font-family: myFontLight;
+    font-weight: bold;
+    border: none;
+    height: 35px;
+    width: 120px;
+    margin-bottom: 80px;
+}
+
+#news2:hover {
+    background-color: rgb(17, 17, 17);
+    cursor: pointer;
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.5;
+    text-align: center;
+  }
+
+#rv {
+    color: black;
+    background-color: transparent;
+}
+
+#rv1 {
+    padding-top: 10px;
+    color: black;
+    background-color: transparent;
+}
+
+#kraj {
+    color:black;
+    font-family: myFontLight;
+    font-size: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+/* O NAMA */
+
+#d1onama {
+    width: 700px;
+    padding-top: 160px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#d1onamatekst {
+    font-style: italic;
+    color: rgb(231, 214, 194);
+    font-size: 15px;
+}
+
+#d2onama {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#d2onamaslika {
+    width: 80%;
+}
+
+#d3onama{
+    width: 700px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/*GALERIJA*/
+
+.roditelj2 {
+    box-sizing: border-box;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gnaslov {
+    padding-bottom: 30px;
+    color: white;
+    font-family: myFontLight;
+    font-weight: bold;
+}
+
+#g1naslov {
+    padding-top: 160px;
+}
+
+#g2naslov {
+    padding-top: 30px;
+}
+
+#g3naslov {
+    padding-top: 30px;
+}
+
+.red {
+    display: flex;
+  }
+  
+.kolona {
+    flex: 33.3%;
+    padding: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.fancylink {
+    padding: 0px;
+}
+
+/* KONTAKT */
+
+.roditelj3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.k {
+   color: white;
+   padding-bottom: 30px;
+   font-family: myFontLight;
+}
+
+#k1naslov {
+    padding-top: 160px;
+    color:rgb(231, 214, 194);
+    padding-bottom: 10px;
+}
+
+.k1tekst {
+    font-size: 15px;
+}
+
+#k2naslov {
+    color: rgb(231, 214, 194);
+    font-family: myFontLight;
+    padding-top: 80px;
+}
+
+.loktekst {
+    font-family: myFontLight;
+    color: white;
+    font-style: italic;
+    padding-top: 17px;
+    font-size: 15px;
+}
+
+.loksl:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#k3naslov {
+    font-family: myFontLight;
+    color: rgb(231, 214, 194);
+    padding-top: 80px;
+}
+
+.k3head {
+    text-decoration: underline;
+    color: rgb(167, 219, 157);
+}
+
+.k3tekst {
+    font-family: myFontLight;
+}
+
+#k4naslov {
+    color: rgb(231, 214, 194);
+    padding-top: 80px;
+}
+
+.red {
+    display: flex;
+}
+  
+.kolona {
+    flex: 33.33%;
+    padding: 15px;
+}
+
+.r {
+    background-color: rgb(231, 214, 194);
+    color: black;
+    font-family: myFontLight;
+    height: 30px;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#r1 {
+    margin-top: 20px;
+}
+
+#rb {
+    background-color: black;
+    color: rgb(231, 214, 194);
+    font-family: myFontLight;
+    font-weight: bold;
+    border: solid;
+    border-color: rgb(231, 214, 194);
+    height: 50px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+#rb:hover {
+    background-color: rgb(17, 17, 17);
+    cursor: pointer;
+}
+
+/* MENI */
+
+.redmeni {
+    display: flex;
+    text-align: center;
+  }
+  
+.kolonameni {
+    flex: 33.33%;
+    padding: 5px;
+    padding-top: 25px;
+}
+
+.menipodnaslov {
+    padding-bottom: 20px;
+    font-family: myFontLight;
+    color:rgb(231, 214, 194);
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 60px;
+    scroll-margin-top: 100px;
+}
+
+#supepodnaslov {
+    padding-top: 160px;
+}
+
+.lista {
+    list-style-type: none;
+    font-family: myFontLight;
+    color: white;
+    size: 10px;
+}
+
+.opis {
+    font-family: myFontLight;
+    color: white;
+    size: 10px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#menifull {
+    display: grid;
+    grid-template-columns: 27% 46% 27%;
+}
+
+#menilevo {
+    display: flex;
+    padding-top: -200px;
+    margin-left: 40px;
+    position: fixed;
+    top: 30%;
+}
+
+.stavka {
+    padding-top: 5px;
+}
+
+#menidesno {
+    display: grid;
+    justify-content: left;
+}
+
+#logodno {
+    width: 30%;
+    text-align: center;
+}
+
+@media all and (max-width: 768px) {
+    .red{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #d2{
+        width: 500px;
+        height: 410px;
+        background: transparent;
+    }
+
+    #d3onama{
+        width: 80%;
+    }
+
+    #d2onama {
+        text-align: center;
+    }
+
+    #d2onamatekst {
+        width: 80%;
+    }
+
+    #d1onama{
+        width: 80%;
+    }
+    
+    .redmeni{
+        flex-direction: column;
+    }
+
+    #menilevo {
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header" id="myheader">
+        <div class="meniel">
+            <a id="meni" href="meni.html">Meni</a>
+        </div>
+        <div class="meniel">
+            <a id="onama" href="onama.html">O nama</a>
+        </div>
+
+        <div class="meniel">
+            <a href="index.html"><img id="logo" alt = "KUMO" src="Slike/logo.png"></a>
+        </div>
+        
+        <div class="meniel">
+            <a id="galerija" href="galerija.html">Galerija</a>
+        </div>
+        <div class="meniel">
+            <a id="kontakt" href="kontakt.html">Kontakt</a>
+        </div>
+    </header>
+
+    <div class="roditelj3">
+        <div class="k" id="k1">
+            <h1 id="k1naslov">RASPOLOŽENI ZA AVANTURU?</h1>
+            <br>
+            <p class="k1tekst">PRONAÐITE NAS NA JEDNOJ OD DVE LOKACIJE U BEOGRADU.</p>
+            <p class="k1tekst">USKORO OTVARANJE NOVIH LOKACIJA.</p>
+        </div>
+
+        <div class="k" id="k2">
+            <h1 id="k2naslov">LOKACIJE</h1>
+        </div>
+
+        <div class="red">
+            <div class="kolona">
+                <a class="loksl" href="https://www.google.com/maps/place/Gandijeva+44,+Beograd/data=!4m2!3m1!1s0x475a6f70bfd6dbcb:0x643b74ad34652543?sa=X&ved=2ahUKEwiegcDj5rvtAhVChqQKHT3KD5AQ8gEwAHoECAMQAQ"
+                target="_blank"> <img src="Slike/mapa1.jpg" alt="Novi Beograd" class="loksl1" style="width: 85%"> </a>
+                <p class="loktekst">Gandijeva 44, Novi Beograd</p>
+            </div>
+
+            <div class="kolona">
+                <a class="loksl" href="https://www.google.com/maps/place/Katani%C4%87eva+13,+Beograd+11000/data=!4m2!3m1!1s0x475a700b308e00df:0xb0f355501b17d257?sa=X&ved=2ahUKEwj5lJr99bvtAhUL-qQKHWoYDMgQ8gEwAHoECAMQAQ"
+                target="_blank"> <img src="Slike/mapa2.jpg" alt="Vračar" class="loksl1" style="width: 85%"> </a>
+                <p class="loktekst">Katanićeva 13, Vračar</p>
+            </div>
+        </div>
+
+        <div class="k" id="k3">
+            <h1 id="k3naslov">TELEFON</h1>
+            <br>
+            <h3 class="k3head">NOVI BEOGRAD</h3>
+            <p class="k3tekst">011 555 4444</p>
+            <p class="k3tekst">062 555 4444</p>
+            <br>
+            <h3 class="k3head">VRAČAR</h3>
+            <p class="k3tekst">011 777 2222</p>
+            <p class="k3tekst">062 777 2222</p>
+        </div>
+
+        <div class="k" id="k4">
+            <form onsubmit="return false">
+                <h1 id="k4naslov">VAŠA RECENZIJA</h1> <br>
+
+                <input type="text" class="r" id="r1" placeholder="IME"> <br>
+                <input type="text" class="r" id="r2" placeholder="EMAIL"> <br>
+                <input type="text" class="r" id="r3" placeholder="KOMENTAR"> <br>
+
+                <label for="poseta">DA LI BISTE NAS POSETILI OPET?</label> <br>
+                <input type="radio" name="posetaime" value="NE" id="poseta1" class="poseta">
+
+                <label for="poseta">NE</label>
+                <input type="radio" name="posetaime" value="MOŽDA" id="poseta2" class="poseta">
+
+                <label for="poseta">MOŽDA</label>
+                <input type="radio" name="posetaime" value="DA" id="poseta3" class="poseta">
+
+                <label for="poseta">DA</label>
+                <br> <br>
+                <span>VAŠA OCENA: </span>
+                <select name="ocenaime" id="ocenanaziv" class="ocena">
+                    <option value="1">5</option>
+                    <option value="2">4</option>
+                    <option value="3">3</option>
+                    <option value="4">2</option>
+                    <option value="5">1</option>
+                </select>
+                <br>
+
+                <br>
+                <input type="submit" value="Pošalji" id="rb" onclick="pitanje()">
+            </form>
+        </div>
+
+    </div>
+
+    <footer class="footer" id="myfooter">
+        <div class="roditelj1">
+        
+        <div id="f1">
+            <a onclick="fejs()"> <img src="Slike/fb.png" alt="FB" class="ikonica"></a>
+            <a onclick="ig()"><img src="Slike/ig.png" alt="IG" class="ikonica"></a>
+        </div>
+
+        <form onsubmit="return false">
+        <div id="f2">
+            <p id="news">PRIJAVI SE ZA NEWSLETTER</p>
+            <input type="text" id="news1" placeholder="UNESITE EMAIL">
+            <br>
+            <button id="news2" onclick="newsletter()">Pošalji</button>
+        </div>
+    </form>
+
+        <div id="f3">
+            <h4 id="rv">RADNO VREME</h4>
+            <p id="rv1"><b>NOVI BEOGRAD </b> 10:00 - 23:00 <br> <b>VRAČAR</b> 10:00 - 23:00</p>
+        </div>
+
+        <div id="f4">
+            <p id="kraj">© 2020 Kumo. All rights reserved. <br> Menu & Website design by m&n.</p>
+        </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

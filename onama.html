@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O nama</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header" id="myheader">
+        <div class="meniel">
+            <a id="meni" href="meni.html">Meni</a>
+        </div>
+        <div class="meniel">
+            <a id="onama" href="onama.html">O nama</a>
+        </div>
+
+        <div class="meniel">
+            <a href="index.html"><img id="logo" alt = "KUMO" src="Slike/logo.png"></a>
+        </div>
+        
+        <div class="meniel">
+            <a id="galerija" href="galerija.html">Galerija</a>
+        </div>
+        <div class="meniel">
+            <a id="kontakt" href="kontakt.html">Kontakt</a>
+        </div>
+    </header>
+
+    <div class="roditelj">
+        <div id="d1onama">
+            <h1 id="dd">NAJBOLJE ZA VAS</h1>
+            <br>
+            <p id="d1onamatekst"> Dva restorana. Jedna misija. Negovati dobar ukus i ugoditi svim čulima, bilo da je to kroz doručak, ručak, večeru ili užinu.
+            </p>
+        </div>
+
+        <div id="d2onama">
+            <img id="d2onamaslika" src="/Slike/onama.jpg">
+        </div>
+
+        <div id="d3onama">
+            <p>Svakog dana se trudimo za vas - biramo najbolje sastojke, kombinujemo ukuse i stalno se poboljšavamo.
+                Pružamo vam nešto u čemu bismo i mi sami uživali.
+            </p>
+            <br>
+            <p>
+                Vodimo računa o svim detaljima, pa nije ni čudo da smo jedan od najpoznatijih restorana u Beogradu, pet godina nakon otvaranja.
+            </p>
+            <br>
+            <p>
+                Dizajn je nešto što nam je jako bitno, jer verujemo da kvalitet mora biti dobro upakovan.
+            </p>
+            <br>
+            <p>
+                Imamo još puno toga u pripremi.
+            </p>
+            <br>
+            <p>
+                Hvala što ste uz nas.
+            </p>
+        </div>
+
+    </div>
+
+    <footer class="footer" id="myfooter">
+        <div class="roditelj1">
+        
+        <div id="f1">
+            <a onclick="fejs()"> <img src="Slike/fb.png" alt="FB" class="ikonica"></a>
+            <a onclick="ig()"><img src="Slike/ig.png" alt="IG" class="ikonica"></a>
+        </div>
+
+        <form onsubmit="return false">
+        <div id="f2">
+            <p id="news">PRIJAVI SE ZA NEWSLETTER</p>
+            <input type="text" id="news1" placeholder="UNESITE EMAIL">
+            <br>
+            <button id="news2" onclick="newsletter()">Pošalji</button>
+        </div>
+    </form>
+
+        <div id="f3">
+            <h4 id="rv">RADNO VREME</h4>
+            <p id="rv1"><b>NOVI BEOGRAD </b> 10:00 - 23:00 <br> <b>VRAČAR</b> 10:00 - 23:00</p>
+        </div>
+
+        <div id="f4">
+            <p id="kraj">© 2020 Kumo. All rights reserved. <br> Menu & Website design by m&n.</p>
+        </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

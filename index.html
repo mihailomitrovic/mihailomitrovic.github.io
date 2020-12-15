@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header" id="myheader">
+        <div class="meniel">
+            <a id="meni" href="meni.html">Meni</a>
+        </div>
+        <div class="meniel">
+            <a id="onama" href="onama.html">O nama</a>
+        </div>
+
+        <div class="meniel">
+            <a href="index.html"><img id="logo" alt = "KUMO" src="Slike/logo.png"></a>
+        </div>
+        
+        <div class="meniel">
+            <a id="galerija" href="galerija.html">Galerija</a>
+        </div>
+        <div class="meniel">
+            <a id="kontakt" href="kontakt.html">Kontakt</a>
+        </div>
+    </header>
+
+        <img src="Slike/akcija.png" alt="DECEMBARSKE AKCIJE" id="akcijasl">
+
+        <div class="roditelj">
+            <div id="d1">
+                <h1 id="dd">DOBRODOŠLI U KUMO</h1>
+                <br>
+                <p>KREATIVNO SPAJAMO SLIČNE I RAZLIČITE UKUSE, ISTRAŽUJEMO NOVE KOMBINACIJE I GASTRONOMSKI SPAJAMO MORE I ZEMLJU.
+                    OBECAVAMO VRHUNSKI UKUS, DIZAJN I KVALITET.
+                </p>
+            </div>
+
+            <div id="d2">
+                <h1 class="jel" id="jel1">NOVI JELOVNIK</h1>
+                <br>
+
+                <p class="jel" id="jel2"> POSLE VIŠEMESEČNOG RADA NA SVAKOM DETALJU, NOVI JELOVNIK JE STIGAO.
+                    NADAMO SE DA ĆE VAS UVESTI U ČULNA ISKUSTVA ZA PAMĆENJE.</p>
+                <a href="http://localhost:8081/Kumo-main/meni.html" target="_blank"> <button id="jeld">Pogledajte jelovnik</button> </a>
+            </div>
+        </div>
+
+        <footer class="footer" id="myfooter">
+            <div class="roditelj1">
+            
+            <div id="f1">
+                <a onclick="fejs()"> <img src="Slike/fb.png" alt="FB" class="ikonica"></a>
+                <a onclick="ig()"><img src="Slike/ig.png" alt="IG" class="ikonica"></a>
+            </div>
+    
+            <form onsubmit="return false">
+            <div id="f2">
+                <p id="news">PRIJAVI SE ZA NEWSLETTER</p>
+                <input type="text" id="news1" placeholder="UNESITE EMAIL">
+                <br>
+                <button id="news2" onclick="newsletter()">Pošalji</button>
+            </div>
+        </form>
+    
+            <div id="f3">
+                <h4 id="rv">RADNO VREME</h4>
+                <p id="rv1"><b>NOVI BEOGRAD </b> 10:00 - 23:00 <br> <b>VRAČAR</b> 10:00 - 23:00</p>
+            </div>
+    
+            <div id="f4">
+                <p id="kraj">© 2020 Kumo. All rights reserved. <br> Menu & Website design by m&n.</p>
+            </div>
+    
+            </div>
+        </footer>
+        
+        <script src="script.js"></script>
+</body>
+</html>

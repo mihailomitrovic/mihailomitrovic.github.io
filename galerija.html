@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+</head>
+<body>
+    <header class="header" id="myheader">
+        <div class="meniel">
+            <a id="meni" href="meni.html">Meni</a>
+        </div>
+        <div class="meniel">
+            <a id="onama" href="onama.html">O nama</a>
+        </div>
+
+        <div class="meniel">
+            <a href="index.html"><img id="logo" alt = "KUMO" src="Slike/logo.png"></a>
+        </div>
+        
+        <div class="meniel">
+            <a id="galerija" href="galerija.html">Galerija</a>
+        </div>
+        <div class="meniel">
+            <a id="kontakt" href="kontakt.html">Kontakt</a>
+        </div>
+    </header>
+
+    <div class="roditelj2">
+        <div id="g1">
+            <h1 class="gnaslov" id="g1naslov">NOVI BEOGRAD</h1>
+        </div>
+
+        <div class="red">
+            <div class="kolona">
+                <a data-fancybox="gallery" href="Slike/nbgd1.jpg" class="fancylink"><img src="Slike/nbgd1.jpg" alt="Novi Beograd 1" id="gsl1" style="width: 100%"></a>
+            </div>
+
+            <div class="kolona">
+                <a data-fancybox="gallery" href="Slike/nbgd2.jpg" class="fancylink"><img src="Slike/nbgd2.jpg" alt="Novi Beograd 2" id="gsl1" style="width: 100%"></a>
+            </div>
+
+            <div class="kolona">
+                <a data-fancybox="gallery" href="Slike/nbgd3.jpg" class="fancylink"><img src="Slike/nbgd3.jpg" alt="Novi Beograd 3" id="gsl1" style="width: 100%"></a>
+            </div>
+        </div>
+
+        <div id="g2">
+            <h1 class="gnaslov" id="g2naslov">VRAčAR</h1>
+        </div>
+
+        <div class="red">
+            <div class="kolona">
+                <a data-fancybox="gallery" href="Slike/vrac1.jpg" class="fancylink"><img src="Slike/vrac1.jpg" alt="Vračar 1" id="gsl1" style="width: 100%"></a>
+            </div>
+
+            <div class="kolona">
+                <a data-fancybox="gallery" href="Slike/vrac2.jpg" class="fancylink"><img src="Slike/vrac2.jpg" alt="Vračar 2" id="gsl1" style="width: 100%"></a>
+            </div>
+
+            <div class="kolona">
+                <a data-fancybox="gallery" href="Slike/vrac3.jpg" class="fancylink"><img src="Slike/vrac3.jpg" alt="Vračar 3" id="gsl1" style="width: 100%"></a>
+            </div>
+        </div>
+
+        <div id="g3">
+            <h1 class="gnaslov" id="g3naslov">HRANA</h1>
+        </div>
+
+        <div class="red">
+            <div class="kolona">
+                <a data-fancybox="gallery" href="Slike/hrana1.jpg" class="fancylink"><img src="Slike/hrana1.jpg" alt="Hrana 1" id="gsl1" style="width: 100%"></a>
+            </div>
+
+            <div class="kolona">
+                <a data-fancybox="gallery" href="Slike/hrana2.jpg" class="fancylink"><img src="Slike/hrana2.jpg" alt="Hrana 2" id="gsl1" style="width: 100%"></a>
+            </div>
+
+            <div class="kolona">
+                <a data-fancybox="gallery" href="Slike/hrana3.jpg" class="fancylink"><img src="Slike/hrana3.jpg" alt="Hrana 3" id="gsl1" style="width: 100%"></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer class="footer" id="myfooter">
+        <div class="roditelj1">
+        
+        <div id="f1">
+            <a onclick="fejs()"> <img src="Slike/fb.png" alt="FB" class="ikonica"></a>
+            <a onclick="ig()"><img src="Slike/ig.png" alt="IG" class="ikonica"></a>
+        </div>
+
+        <form onsubmit="return false">
+        <div id="f2">
+            <p id="news">PRIJAVI SE ZA NEWSLETTER</p>
+            <input type="text" id="news1" placeholder="UNESITE EMAIL">
+            <br>
+            <button id="news2" onclick="newsletter()">Pošalji</button>
+        </div>
+    </form>
+
+        <div id="f3">
+            <h4 id="rv">RADNO VREME</h4>
+            <p id="rv1"><b>NOVI BEOGRAD </b> 10:00 - 23:00 <br> <b>VRAČAR</b> 10:00 - 23:00</p>
+        </div>
+
+        <div id="f4">
+            <p id="kraj">© 2020 Kumo. All rights reserved. <br> Menu & Website design by m&n.</p>
+        </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
